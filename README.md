@@ -9,3 +9,6 @@ Para completar este ejercicio hemos creado un repositorio boilerplate (plantilla
 Y mi resultado fue este:
 
 ![Resultado](http://i67.tinypic.com/105w1zb.png)
+
+## Autora: Laura Jiménez
+
