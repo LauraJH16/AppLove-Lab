@@ -1,0 +1,185 @@
+/*CLASES REUTILIZABLES*/
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 1.71429;
+  font-family: 'Raleway', sans-serif;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.container {
+  width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0 14px;
+}
+
+.container:before, .container:after {
+  content: " ";
+  display: table;
+}
+
+*:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.container:after {
+  clear: both;
+}
+
+.mb-0 {
+  margin-bottom: 0px;
+}
+
+.mt-0 {
+  margin-top: 0px;
+}
+
+.m-0 {
+  margin: 0px;
+}
+
+a {
+  color: #373B47;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #E95853;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+/*ESCRIBE TU CÓDIGO DESDE AQUÍ*/
+header {
+  background-color: white;
+  display: block;
+  padding-top: 10px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.we {
+  font-size: 3.5em;
+}
+
+nav {
+  padding: 15px;
+}
+
+.logo {
+  float: right;
+  height: 70px;
+  width: 70px;
+}
+.nav a{
+  cursor: pointer;
+  font-weight: 700;
+  padding-right: 35px;
+  position: relative;
+  top: 20px;
+}
+
+section {
+  padding: 40px;
+}
+
+.chief {
+  background-image: url(../assets/images/bg-home.jpg);
+  margin-top: 100px;
+}
+
+.chief h2 {
+  font-size: 1.5em;
+}
+.chief .container {
+  height: 100%;
+  padding: 20px;
+}
+
+.background-image {
+  background-size: 100% 100%;
+  color: #fff;
+  height: 580px;
+  text-align: center;
+}
+
+.chief-btn {
+  background-color: #2ecc71;
+  border-radius: 5px;
+  margin: 60px auto;
+  padding: 10px;
+  text-align: center;
+  width: 150px;
+}
+
+.chief-btn gr a {
+  color: #fff;
+  cursor: pointer;
+  display: block;
+}
+
+.services {
+  background-color: rgb(241, 124, 114);
+}
+
+.sub {
+  font-size: 2.5em;
+}
+
+.services-p img {
+  height: 200px;
+  width: 200px;
+}
+
+.services-p {
+  display: inline-block;
+  margin: 50px 80px;
+}
+
+.work {
+  text-align: center;
+}
+
+figure {
+  display: inline-block;
+  height: 250px;
+  margin: 40px 30px;
+  width: 300px;
+}
+
+figure img {
+  height: 100%;
+  width: 100%;
+}
+
+figure img ~ p {
+  font-weight: 700;
+}
+
+footer {
+  background-color: rgb(55, 59, 71);
+  color: #fff;
+  padding: 15px;
+  text-align: center;
+}
